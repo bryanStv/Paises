@@ -27,7 +27,7 @@ public class PaisUI extends JFrame {
         initComponents();
 
         this.pais = paisRepository.findFirstByOrderByIdAsc();
-        poblacionField = String.valueOf(this.pais.getPoblacion());
+        //poblacionField = String.valueOf(this.pais.getPoblacion());
         updateData();
     }
 
